@@ -1,0 +1,288 @@
+\documentclass{jsarticle}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{latexsym}
+
+\algtext*{EndFor}
+\algtext*{EndFunction}
+
+\newtheorem{dfn}{定義}
+
+\begin{document}
+\section{はじめに}
+次元圧縮はデータの情報量を削減するのと同じことになっている．
+手法としては統計的手法である主成分分析や多様体学習であるISOMAPや
+t-SNE等が挙げられている．特にt-SNEはkaggleでもよく使われている手法になっており
+ニューラルネットワークの初期値として与えられたりするなど汎用性は高い．
+しかし、今回はt-SNEより実行速度が速く，またkaggleでも
+注目されつつあるUMAPについて紹介したいと思う．
+
+\section{データの多様体への変換と近似}
+データを多様体の空間として考えたい．多様体の空間は$\mathbb{R}^n$として考える。
+そこでデータは式(\ref{eq:1})で表されることにする．
+\begin{eqnarray}
+  X={X_1,\ctods,X_N}
+\end{eqnarray}
+もし，実際のデータがリーマン空間に従うのであれば、そこから等分布荷重を見出すことができる。
+ここで命題を一つ与えたい。
+
+\subsection{命題1}
+ここで$det$は行列式をあらわす．
+
+\section{空間表現}
+局所的な空間を表現したい．
+\begin{dfn}
+  \label{den:1}
+  圏\triangleは埋め込みマップによって与えられる群の構造を保つ写像で
+  有限群の$sets[n]={1,\cdots,n}$を持つ．
+\end{dfn}
+
+\begin{dfn}
+  単体の集合は\ref{den:1}によって与えられるマップからの関手である．
+\end{dfn}
+
+単体の集合は多様体空間の学習の組み合わせ方法で説明できる．
+対照的に距離空間を処理しと距離情報を持ちえる同様な構造を必要としている．
+しかし、これを表現する方法はすでにSpivakによって証明されている．
+
+ここで$I$は$(0,a);a\in(0,1]$の間隔によって与えられる
+ 位相で$(0,1]:{0<a\le1}\lin\mathbb{R}$の間隔である．
+オープンセットの圏はいくつかの順序集合のカテゴリーにとっての自然な方法で
+グロダンティーク位相になじませることができる．
+\begin{dfn}
+  $I$における前層$\mathcal{p}$は集合への関手$I^{op}$である．
+  ファジー集合はIの層であるので全てのマップ$\mathcal{P}(a \lin b)$は単射である．
+\end{dfn}
+
+不完全な単調写像から
+また層における限は定義されているが，直接限は定義されていない．そこで次の定義を行う．
+\begin{dfn}
+  ファジー集合における集合のファジーは$I$における層の部分集合である
+\end{dfn}
+
+また、ファジーの単体の集合の定義は次のように定義される
+\begin{dfn}
+  ファジ-の単体の集合:$sFuzz$は$\triangle^{op}$からFuzzへの関手によって与えられる
+  オブジェクトと，自然変換によって与えられる射の集合である．
+\end{dfn}
+
+ファジーの単体集合は密着空間として与えられ，そして$\triangle \times I$は
+積位相を持つ層としてみられる．
+\begin{dfn}
+擬距離空間(extended-pseudo-metric space)は次のように定義される．
+\begin{enumerate}
+  $d(x,y) \ge 0 and x=y,d(x,y)=0$;
+  $d(x,y) = d(y,x)$;
+  $d(x,z) \le d(x,y) + d(y,z) or d(x,z)=\infty$
+\end{enumerate}
+\end{dfn}
+これらの擬似空間距離の集合をEPMetと呼び擬似空間距離と収縮写像をもつ．
+また，有限擬似空間距離をFinEPMetと呼ぶ．
+
+また，Spivakは随伴関手として　sFuzzとEPMetの集合の間であるRealとSingを定義した．
+Real式\ref{eq:space_1}で定義される．
+ 
+\begin{eqnarray}
+  \label{eq:space_1}
+  Real( \delta ^n _a) = \{ (t_0 , \cdots t_n) \in \mathbb{R}^{n;1} | \sum _{i=0} ^n t_i = -log(a),t_i \geq 0 \}
+\end{eqnarray}
+
+また，$a \le b$なら，位相空間内の　$\triangle ^n _a \rightarrow \triangle ^m _b$と表され．
+$\triangle \rm{morphonism} \sigma:[n] \rightarrow [m]$として表される．
+
+\begin{eqnarray}
+  (x_0,x_1, \cdots x_n) \mapsto \frac{\log (b)}{\log (a)} \left(
+    \sum _{i_0 \in \sigma ^{-1} (0) }\sum _{i_0 \in \sigma ^{-1} (1)},\cdots,\sum _{i_0 \in \sigma ^{-1} (m)} \right) 
+\end{eqnarray}
+
+この写像は$0 \leq a \leq b$における$\log(b) / \log (a) \leq 1$であるときは非拡大的である．
+
+\begin{eqnarray}
+  {\rm Real(X) = ^\triangle {\rm colim} _{\triangle ^n _{<a} \rightarrow X} Real(\triangle ^n _{<a})}
+\end{eqnarray}
+
+集合の$\triangle \times I$における擬似空間距離の随伴関数をSingとする．
+\begin{eqnarray}
+  {\rm Sing}(Y):([n],[0,a] \mapsto {\rm hom}_{EPMet}({\rm Real(\triangle ^n _{<a})}))
+\end{eqnarray}
+
+また有限距離について，Fin-FuzzとFinReal，FinSingを定義する．
+
+\begin{dfn}
+  関手FinRealの定義:Fin-sFuzz \rightarrow FinEPMet
+  \begin{eqnarray}
+    FinReal(\triangle ^n _{<a}) = ({x_1,x_2,\cdots,x_n},d_n)
+  \end{eqnarray}
+  このとき，
+  \begin{eqnarray}
+    d_a(x_i,x_j) = \begin{cases}
+      -log(a) & i \neq j
+      0 & otherwise
+    \end{cases}
+  \end{eqnarray}
+
+  また，次のように定義することもできる．
+  \begin{eqnarray}
+    {\rm FinReal(X) = ^\triangle {\rm colim} _{\triangle ^n _{<a} \rightarrow X} FinReal(\triangle ^n _{<a})}
+  \end{eqnarray}
+  \end{dfn}
+
+\begin{dfn}
+  関手FinSing:FinEPMet \rightarrow Fin-sFuzzは次のようにう定義される．
+  \begin{eqnarray}
+    FinSing(Y):([n],[0,a]) \mapsto hom_{FinEPMet}(FinReal(\triangle ^n _{a})Y)
+  \end{eqnarray}
+\end{dfn}
+
+\begin{theorem}
+  FinRealとFinSingは随伴関手として与えられる．
+\end{theorem}
+
+\begin{dfn}
+  $X={X_1,\ldots,X_N} \in \mathbb{R}^n$
+
+  ${ (X,d_i)_{i=1 \ldots N }$は擬似距離空間の一部であり，式\ref{eq:di}はで表される
+  \begin{eqnarray}
+    d_i(X_i, X,j)=\begin{cases}
+      \label{eq:di}
+      d_\mathcal{R} (X_i,X_k)- \ & \text{if} i=j \text{or} i=k \\
+      \infty & otherwise
+    \end{cases}
+  \end{eqnarray}
+  このとき$\rho$は$X_i$の近傍(Nearest Neigbor)を示し，$d_\mathcal{M}$は
+  多様体における曲線距離(geodesic distance)を示す．
+  Xのファジートポロジカルの表現は式\ref{eq:FinSing}で示される．
+  \begin{eqnarray}
+    \bigcup\bm{FinSing}((X,d_i))
+  \end{eqnarray}
+\end{dfn}
+
+このファジー集合によってグローバルな構造とローカルな構造を示していることになる．
+
+\section{低次元表現の最適化}
+\begin{dfn}
+  $(A,\mu)$と$(A,\nu)$によって与えられるクロスエントロピーは次のように定義される．
+  \begin{eqnarray}
+    C((A,\mu),(A,\nu)) \overset{\triangle}{=}
+      \sum _{a \in A} (\mu(a) \log \frac{\mu(a)}{\nu(a)} 
+      +(1-\mu(a))log\frac{1-\mu(a)}{1-\nu(a)}) 
+  \end{eqnarray}
+\end{dfn}
+これは，t-SNEの最適化と似ているところがある
+最終的な誤差関数は次のように表される．
+\begin{eqnarray}
+  C_l(X,Y)=\sum_{i=1} ^l \lambda_i C(X_i,Y_i)
+\end{eqnarray}
+
+\section{UMAPの可視化}
+本手法gはk近傍方を基にした手法となっている．
+
+段階は2つに分かれており，1段階目においては重み付きのk-neigberグラフを作成する．
+2段階目においては低次元における最適化を行う．
+
+\subsection{グラフの初期化}
+\begin{eqnarray}
+  \rho _i = \min d(x_i,x_ij) | 1 \ge j \ge k,d(x_i,x_ij)>0}
+\end{eqnarray}
+
+\begin{eqnarray}
+  \sum _{j=1} ^k \exp \left( \frac{\max(0,d(x_i,x_j)-\rho_i)}{\sigma_i} \right) = \log_2(k)
+\end{eqnarray}
+重みは次で定義される．
+\begin{eqnarray}
+  \label{weight}
+  w((x_i , x_{ij} )) = \exp \left( \frac{\max(0,d(x_i,x_j)-\rho_i)}{\sigma_i} \right)
+\end{eqnarray}
+隣接行列は式\ref{weight}によって定義される．また，対称行列は次で定義される．ここで，$\circ$はアダマール行列を
+示す．
+
+\subsection{グラフの配置}
+t-SNEの時と同じく斥力と引力を考えてグラフの配置を行っていく．
+
+引力は式\ref{eq:attractive}で示される．
+\begin{eqnarray}
+  \label{eq:attractive}
+  \frac{-2ab \| y_i -y_j\| _2 ^{2(b-1)}}{1+\|y_i-y_j\| _2 ^2} w((x_i,x_j))(y_i-y_j)
+\end{eqnarray}
+ここでの$a$，$b$はハイパーパラメータとなっている．
+
+斥力は式(\ref{eq:repulsiv})で表されることにする．
+\begin{eqnarray}
+  \frac{b}{(\epsilon + \| y_i - y_j\|_2^2)(1+ \| y_i - y_j\|_2^2)}(1-w((x_i,x_j)))(y_i-y_j)
+\end{eqnarray}
+
+$\epsilon$は分裂を防ぐためのごく小さい数字となっている.
+
+\section{実装とハイパーパラメータ}
+\begin{algorithm}
+  \caption{UMAP Algorithm}
+  \label{alg:1}
+  \begin{algorithmic}
+    \Function{UMAP}{X, n, d, min-dist, n-epochs}
+      \ForAll{x \in X}\\
+      \State Fs-set[$x$] $\leftarrow$ LocalFuzzySimpricalSet($X$,$x$,$n$)
+      \EndFor
+    \State top-rep \leftarrow $\cup _{x \in X}$ fs-set[x]
+    \State $Y \leftarrow$ SpectralEmbedding(top-rep,d)
+    \State $Y \leftarrow$ OptimizeEmbedding(top-rep,Y,min-dist,n-epochs)
+    \State \Return $Y$
+    \EndFunction
+  \end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+  \caption{Constructing a local fuzzy simplicial set}
+  \label{alg:2}
+  \begin{algorithmic}
+  \Function{LocalFuzzySimplicalSet}{X,x,n}
+    \State knn,knn-distance $Y \leftarrow$ ApproxNearestNeighbors(X,x,n)
+    \State \rho $\leftarrow$ knn_dists[1] \rhd Distance to Nearest Neigbor
+    \State \Sigma $\leftarrow$ SmoothKNNDist(knn-dists,n,\rho) \rhd Smooth approximator to knn-distance
+    \State fs-set_0 $\leftarrow$ X
+    \State fs-set_1 $\leftarrow$ {([x,y],0)|y  $\in$ X}
+    \ForAll{y \in knn}
+    \State d_{x,y}$Y \leftarrow$ max{0,dist(x,y)-\rho} / \sigma
+    \Statefs_set_1 $Y \leftarrow$ fs_set $\cup$([x,y],exp(-d_{x,y}))
+    \EndFor
+    \State \Return fs-set
+    \EndFunction
+  \end{algorithmic}
+\end{algorithm}
+
+
+\end{algorithm}
+
+P(x_i)=\frac{\sum_{a \in d_0(a)=x_i} 1 - \mu (a)}{\sum_{b \in d_0(b)=x_i} 1 - \mu (b)}
+
+\phi(x,y)=(1+a(\|x-y\|_2^2)^b)^{-1}
+
+\Psi(x , y)= \left\{ \begin{array}{ll}
+  1  & if\| x-y\| \leq mindist \\
+  \exp(-(\| x-y \|_2 - {mindist})) & otherwise
+\end{array} \right.
+
+
+\section*{用語集}
+$\mathcal{M}$　多様体空間
+$g$　リーマン計量
+圏論(category theory)
+
+層(Presheaf):位相空間上で連続的に変化する様々な数学的構造を捉えるための概念
+
+ファジー集合(Fazzy sets):
+直極限(colimit)
+米田の補題
+
+擬似空間距離(extended pseudo metric space)
+
+随伴関数(right adjoint)
+
+骨格(skelton)
+
+\section*{参考ページ}
+原論文:https://arxiv.org/pdf/1802.03426.pdf
+日本語訳:http://cympfh.cc/paper/UMAP.html
+\end{document}

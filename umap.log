@@ -1,0 +1,1454 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.25)  8 APR 2019 14:56
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/owner/Desktop/研究/U-map_日本語/umap.tex
+(/Users/owner/Desktop/研究/U-map_日本語/umap.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+
+/usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jsarticle.cls:26: LaTeX Error: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \NeedsTeXFormat{pLaTeX2e}
+                              
+The current input file will not be processed further,
+because it was written for some other flavor of TeX.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen102
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen103
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count80
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count81
+\leftroot@=\count82
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count83
+\DOTSCASE@=\count84
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen104
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count85
+\c@MaxMatrixCols=\count86
+\dotsspace@=\muskip10
+\c@parentequation=\count87
+\dspbrk@lvl=\count88
+\tag@help=\toks15
+\row@=\count89
+\column@=\count90
+\maxfields@=\count91
+\andhelp@=\toks16
+\eqnshift@=\dimen105
+\alignsep@=\dimen106
+\tagshift@=\dimen107
+\tagwidth@=\dimen108
+\totwidth@=\dimen109
+\lineht@=\dimen110
+\@envbody=\toks17
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks19
+\float@box=\box28
+\@float@everytoks=\toks20
+\@floatcapt=\box29
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks21
+\c@algorithm=\count93
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/algpseudocode.sty
+Package: algpseudocode 
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count94
+\c@ALG@rem=\count95
+\c@ALG@nested=\count96
+\ALG@tlm=\skip44
+\ALG@thistlm=\skip45
+\c@ALG@Lnr=\count97
+\c@ALG@blocknr=\count98
+\c@ALG@storecount=\count99
+\c@ALG@tmpcounter=\count100
+\ALG@tmplength=\skip46
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+\c@dfn=\count101
+ (/Users/owner/Desktop/研究/U-map_日本語/umap.aux)
+\openout1 = `umap.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:14: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:15: Undefined control sequence.
+l.15 \section
+             {はじめに}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:15: Package inputenc Error: Unicode character は (U+306F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{は
+                 じめに}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:15: Package inputenc Error: Unicode character じ (U+3058)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{はじ
+                    めに}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:15: Package inputenc Error: Unicode character め (U+3081)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{はじめ
+                       に}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:15: Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \section{はじめに
+                          }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 次 (U+6B21)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次
+        元圧縮はデータの情報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 元 (U+5143)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元
+           圧縮はデータの情報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 圧 (U+5727)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧
+              縮はデータの情報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 縮 (U+7E2E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮
+                 はデータの情報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character は (U+306F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮は
+                    データの情報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character デ (U+30C7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデ
+                       ータの情報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデー
+                          タの情報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character タ (U+30BF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデータ
+                             の情報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデータの
+                                情報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 情 (U+60C5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデータの情
+                                   報量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 報 (U+5831)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデータの情報
+                                      量を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 量 (U+91CF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデータの情報量
+                                         を削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character を (U+3092)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデータの情報量を
+                                            削減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 削 (U+524A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデータの情報量を削
+                                               減するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 減 (U+6E1B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 次元圧縮はデータの情報量を削減
+                                                  するのと同じこと�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character す (U+3059)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...圧縮はデータの情報量を削減す
+                                                  るのと同じことに�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...縮はデータの情報量を削減する
+                                                  のと同じことにな�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...はデータの情報量を削減するの
+                                                  と同じことになっ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character と (U+3068)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...データの情報量を削減するのと
+                                                  同じことになって�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character 同 (U+540C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...ータの情報量を削減するのと同
+                                                  じことになってい�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character じ (U+3058)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...タの情報量を削減するのと同じ
+                                                  ことになっている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character こ (U+3053)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...の情報量を削減するのと同じこ
+                                                  とになっている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character と (U+3068)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...情報量を削減するのと同じこと
+                                                  になっている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...報量を削減するのと同じことに
+                                                  なっている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character な (U+306A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...量を削減するのと同じことにな
+                                                  っている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character っ (U+3063)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...を削減するのと同じことになっ
+                                                  ている．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...削減するのと同じことになって
+                                                  いる．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character い (U+3044)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...減するのと同じことになってい
+                                                  る．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...するのと同じことになっている
+                                                  ．
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:16: Package inputenc Error: Unicode character ． (U+FF0E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...るのと同じことになっている．
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 手 (U+624B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手
+        法としては統計的手法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 法 (U+6CD5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法
+           としては統計的手法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character と (U+3068)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法と
+              しては統計的手法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character し (U+3057)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法とし
+                 ては統計的手法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法として
+                    は統計的手法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character は (U+306F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては
+                       統計的手法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 統 (U+7D71)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては統
+                          計的手法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 計 (U+8A08)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては統計
+                             的手法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 的 (U+7684)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては統計的
+                                手法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 手 (U+624B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては統計的手
+                                   法である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 法 (U+6CD5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては統計的手法
+                                      である主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character で (U+3067)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては統計的手法で
+                                         ある主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character あ (U+3042)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては統計的手法であ
+                                            る主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては統計的手法である
+                                               主成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 主 (U+4E3B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 手法としては統計的手法である主
+                                                  成分分析や多様体�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 成 (U+6210)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...としては統計的手法である主成
+                                                  分分析や多様体学�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 分 (U+5206)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...しては統計的手法である主成分
+                                                  分析や多様体学習�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 分 (U+5206)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...ては統計的手法である主成分分
+                                                  析や多様体学習で�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 析 (U+6790)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...は統計的手法である主成分分析
+                                                  や多様体学習であ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character や (U+3084)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...統計的手法である主成分分析や
+                                                  多様体学習であるIS...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 多 (U+591A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...計的手法である主成分分析や多
+                                                  様体学習であるISOMA...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 様 (U+69D8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...的手法である主成分分析や多様
+                                                  体学習であるISOMAPや
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 体 (U+4F53)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...手法である主成分分析や多様体
+                                                  学習であるISOMAPや
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 学 (U+5B66)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...法である主成分分析や多様体学
+                                                  習であるISOMAPや
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character 習 (U+7FD2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...である主成分分析や多様体学習
+                                                  であるISOMAPや
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character で (U+3067)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...ある主成分分析や多様体学習で
+                                                  あるISOMAPや
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character あ (U+3042)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...る主成分分析や多様体学習であ
+                                                  るISOMAPや
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...主成分分析や多様体学習である
+                                                  ISOMAPや
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no P in font nullfont!
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:17: Package inputenc Error: Unicode character や (U+3084)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...分析や多様体学習であるISOMAPや
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no E in font nullfont!
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character 等 (U+7B49)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等
+             が挙げられている．特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character が (U+304C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が
+                挙げられている．特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character 挙 (U+6319)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙
+                   げられている．特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character げ (U+3052)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙げ
+                      られている．特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character ら (U+3089)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙げら
+                         れている．特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character れ (U+308C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙げられ
+                            ている．特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙げられて
+                               いる．特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character い (U+3044)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙げられてい
+                                  る．特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙げられている
+                                     ．特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character ． (U+FF0E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙げられている．
+                                        特にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character 特 (U+7279)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙げられている．特
+                                           にt-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 t-SNE等が挙げられている．特に
+                                              t-SNEはkaggleでもよく使�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no E in font nullfont!
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character は (U+306F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�が挙げられている．特にt-SNEは
+                                                  kaggleでもよく使わ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character で (U+3067)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�られている．特にt-SNEはkaggleで
+                                                  もよく使われてい�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character も (U+3082)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�れている．特にt-SNEはkaggleでも
+                                                  よく使われている�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character よ (U+3088)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�ている．特にt-SNEはkaggleでもよ
+                                                  く使われている手�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character く (U+304F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�いる．特にt-SNEはkaggleでもよく
+                                                  使われている手法�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character 使 (U+4F7F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�る．特にt-SNEはkaggleでもよく使
+                                                  われている手法に�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character わ (U+308F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�．特にt-SNEはkaggleでもよく使わ
+                                                  れている手法にな�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character れ (U+308C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�特にt-SNEはkaggleでもよく使われ
+                                                  ている手法になっ�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�にt-SNEはkaggleでもよく使われて
+                                                  いる手法になって�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character い (U+3044)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...�t-SNEはkaggleでもよく使われてい
+                                                  る手法になっており
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...SNEはkaggleでもよく使われている
+                                                  手法になっており
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character 手 (U+624B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...はkaggleでもよく使われている手
+                                                  法になっており
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character 法 (U+6CD5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...kaggleでもよく使われている手法
+                                                  になっており
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...gleでもよく使われている手法に
+                                                  なっており
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character な (U+306A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...でもよく使われている手法にな
+                                                  っており
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character っ (U+3063)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...もよく使われている手法になっ
+                                                  ており
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...よく使われている手法になって
+                                                  おり
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character お (U+304A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...く使われている手法になってお
+                                                  り
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:18: Package inputenc Error: Unicode character り (U+308A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...使われている手法になっており
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:19: Package inputenc Error: Unicode character ニ (U+30CB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ニ
+        ューラルネットワークの初期値として与えられた�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:19: Package inputenc Error: Unicode character ュ (U+30E5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ニュ
+           ーラルネットワークの初期値として与えられた�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:19: Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ニュー
+              ラルネットワークの初期値として与えられた�...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 1360 strings out of 492649
+ 17658 string characters out of 6129621
+ 76924 words of memory out of 5000000
+ 5293 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 27i,1n,25p,315b,27s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+/Users/owner/Desktop/研究/U-map_日本語/umap.tex:19:  ==> Fatal error occurred, no output PDF file produced!
