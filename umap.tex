@@ -6,9 +6,6 @@
 \usepackage{algpseudocode}
 \usepackage{latexsym}
 
-\algtext*{EndFor}
-\algtext*{EndFunction}
-
 \newtheorem{dfn}{定義}
 
 \begin{document}
@@ -222,8 +219,10 @@ $\epsilon$は分裂を防ぐためのごく小さい数字となっている.
   \label{alg:1}
   \begin{algorithmic}
     \Function{UMAP}{X, n, d, min-dist, n-epochs}
-      \ForAll{x \in X}\\
+      \ForAll {x \in X}
+
       \State Fs-set[$x$] $\leftarrow$ LocalFuzzySimpricalSet($X$,$x$,$n$)
+
       \EndFor
     \State top-rep \leftarrow $\cup _{x \in X}$ fs-set[x]
     \State $Y \leftarrow$ SpectralEmbedding(top-rep,d)
@@ -233,26 +232,53 @@ $\epsilon$は分裂を防ぐためのごく小さい数字となっている.
   \end{algorithmic}
 \end{algorithm}
 
-\begin{algorithm}
-  \caption{Constructing a local fuzzy simplicial set}
+\begin{algorithm}\caption{Constructing a local fuzzy simplicial set}
   \label{alg:2}
   \begin{algorithmic}
   \Function{LocalFuzzySimplicalSet}{X,x,n}
-    \State knn,knn-distance $Y \leftarrow$ ApproxNearestNeighbors(X,x,n)
-    \State \rho $\leftarrow$ knn_dists[1] \rhd Distance to Nearest Neigbor
-    \State \Sigma $\leftarrow$ SmoothKNNDist(knn-dists,n,\rho) \rhd Smooth approximator to knn-distance
-    \State fs-set_0 $\leftarrow$ X
-    \State fs-set_1 $\leftarrow$ {([x,y],0)|y  $\in$ X}
-    \ForAll{y \in knn}
-    \State d_{x,y}$Y \leftarrow$ max{0,dist(x,y)-\rho} / \sigma
-    \Statefs_set_1 $Y \leftarrow$ fs_set $\cup$([x,y],exp(-d_{x,y}))
-    \EndFor
-    \State \Return fs-set
-    \EndFunction
+
+  \State knn,knn-distance $Y \leftarrow$ ApproxNearestNeighbors(X,x,n)
+
+  \State \rho $\leftarrow$ knn\_dists[1] \rhd Distance　to　Nearest　Neigbor
+  
+  \State \sigma $\leftarrow$ SmoothKNNDist(knn-dists,n,\rho) \rhd Smooth　approximator　to　knn-distance
+  
+  \State fs-set_0 $\leftarrow$ X
+
+  \State fs-set_1 $\leftarrow$ {([x,y],0) |y  $\in$ X}
+
+  \ForAll{y \in knn}
+
+  \State d_{x,y}$Y \leftarrow$ max\{0,dist(x,y)-\rho\４} / \sigma
+
+  \State  fs_set_1 $Y \leftarrow$ fs\_set $\cup$([x,y],exp(-d_{x,y}))
+
+  \EndFor
+  \State \Return fs-set
+  \EndFunction
   \end{algorithmic}
 \end{algorithm}
 
+\begin{algorithm}
+  \caption{Compute the normalizing for distance $\sigma$}
+  \begin{algorithmic}
+    \Function{SmoothKNNDist}{knn-dists,n,$\rho$}
+    \State Binary search for $\sigma$ such that $\sum_{i=1}^n \exp (-knn-dists_i - \rho)/\sigma)=\log_2(n)$
+    \State \Return \sigma
+  \end{algorithmic}
+\end{algorithm}
 
+\begin{algorithm}
+  \caption{Spectral OptimizeEmbedding for initialization}
+  \begin{algorithmic}
+    \Function{SpectralEmbedding}{top-rep,d}
+    \State $A$ $\leftarrow$ 1-skeleton of top-rep expressed as a weighted adjacency matrix
+    \State $D$ $\leftarrow$ degree matrix for the graph A
+    \State $L$ $\leftarrow$ $D^\frac{1}{2}(D-A)D^\frac{1}{2}$
+    \State evec $\leftarrow$ Eigenvectors of $L$ (Sorted)
+    \State $Y$ $\leftarrow$ evec[$1 \udots d+1$]
+    \State \Return $Y$
+  \end{algorithmic}
 \end{algorithm}
 
 P(x_i)=\frac{\sum_{a \in d_0(a)=x_i} 1 - \mu (a)}{\sum_{b \in d_0(b)=x_i} 1 - \mu (b)}
@@ -264,7 +290,12 @@ P(x_i)=\frac{\sum_{a \in d_0(a)=x_i} 1 - \mu (a)}{\sum_{b \in d_0(b)=x_i} 1 - \m
   \exp(-(\| x-y \|_2 - {mindist})) & otherwise
 \end{array} \right.
 
-
+\begin{algorithm}
+  \begin{algorithmic}
+    \alpha $\leftarrow$ $1.0$
+    Fit 
+  \end{algorithmic}
+\end{algorithm}
 \section*{用語集}
 $\mathcal{M}$　多様体空間
 $g$　リーマン計量
