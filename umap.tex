@@ -65,13 +65,13 @@ t-SNE等が挙げられている．特にt-SNEはkaggleでもよく使われて�
   ファジー集合における集合のファジーは$I$における層の部分集合である
 \end{dfn}
 
-また、ファジーの単体の集合の定義は次のように定義される
+また、Fuzzy Simplical Setは次のように定義される
 \begin{dfn}
-  ファジ-の単体の集合:$sFuzz$は$\triangle^{op}$からFuzzへの関手によって与えられる
+  Fuzzy Simplical Set:$sFuzz$は$\triangle^{op}$からFuzzへの関手によって与えられる
   オブジェクトと，自然変換によって与えられる射の集合である．
 \end{dfn}
 
-ファジーの単体集合は密着空間として与えられ，そして$\triangle \times I$は
+Fuzzy Simplical Setは密着空間として与えられ，そして$\triangle \times I$は
 積位相を持つ層としてみられる．
 \begin{dfn}
 擬距離空間(extended-pseudo-metric space)は次のように定義される．
@@ -89,7 +89,7 @@ Realは式\ref{eq:space_1}で定義される．
  
 \begin{eqnarray}
   \label{eq:space_1}
-  Real( \triangle ^n _a) =^triangle \{ (t_0 , \cdots t_n) \in \mathbb{R}^{n;1} | \sum _{i=0} ^n t_i = -log(a),t_i \geq 0 \}
+  Real( \triangle ^n _a) =^\triangle \{ (t_0 , \cdots t_n) \in \mathbb{R}^{n;1} | \sum _{i=0} ^n t_i = -log(a),t_i \geq 0 \}
 \end{eqnarray}
 
 また，$a \le b$なら，位相空間内の$\triangle ^n _a \rightarrow \triangle ^m _b$と表され．
@@ -158,9 +158,9 @@ $\triangle \rm{morphonism} \sigma:[n] \rightarrow [m]$として表される．
   \end{eqnarray}
   このとき$\rho$は$X_i$の近傍(Nearest Neigbor)を示し，$d_\mathcal{M}$は
   多様体における曲線距離(geodesic distance)を示す．
-  Xのファジートポロジカルの表現は式()\ref{eq:FinSing})で示される．
+  Xのファジートポロジカルの表現は式(\ref{eq:FinSing})で示される．
   \begin{eqnarray}
-    \ref{eq:FinSing}
+    \label{eq:FinSing}
     \bigcup_{i=1}^n \bm{FinSing}((X,d_i))
   \end{eqnarray}
 \end{dfn}
@@ -205,7 +205,7 @@ $\triangle \rm{morphonism} \sigma:[n] \rightarrow [m]$として表される．
   \label{weight}
   w((x_i , x_{ij} )) = \exp \left( \frac{\max(0,d(x_i,x_j)-\rho_i)}{\sigma_i} \right)
 \end{eqnarray}
-隣接行列は式\ref{weight}によって定義される．また，対称行列は次で定義される．ここで，$\circ$はアダマール行列を
+隣接行列は$\bar{G}$によって定義される．また，対称行列は次で定義される．ここで，$\circ$はアダマール行列を
 示す．これにより無向巡回グラフを生成することができる．
 \begin{eqnarray}
   B=A+A^\T - A \circ A^\T
@@ -273,7 +273,7 @@ $\log(n)$に最適な$\omega$を求める方法をAlgorithm\ref{alg:3}に示す
   \label{alg:3}
   \begin{algorithmic}
     \Function{SmoothKNNDist}{knn-dists,n,$\rho$}
-    \State Binary search for $\sigma$ such that $\sum_{i=1}^n \exp (-knn-dists_i - \rho)/\sigma)=\log_2(n)$
+    \State Binary search for $\sigma$ such that $\sum_{i=1}^n \exp (-\text{knn-dists}_i - \rho)/\sigma)=\log_2(n)$
     \State \Return \sigma
   \end{algorithmic}
 \end{algorithm}
@@ -288,7 +288,7 @@ $\log(n)$に最適な$\omega$を求める方法をAlgorithm\ref{alg:3}に示す
     \State $D$ $\leftarrow$ degree matrix for the graph A
     \State $L$ $\leftarrow$ $D^\frac{1}{2}(D-A)D^\frac{1}{2}$
     \State evec $\leftarrow$ Eigenvectors of $L$ (Sorted)
-    \State $Y$ $\leftarrow$ evec[$1 \udots d+1$]
+    \State $Y$ $\leftarrow$ evec[$1 \idots d+1$]
     \State \Return $Y$
   \end{algorithmic}
 \end{algorithm}
@@ -334,12 +334,12 @@ $\mathbb{R}$の２点間における1次元の単体のメンバーシップ関�
     \State $\alpha \leftarrow$ $1.0$
     \State Fit $\phi$ from $\Phi$ defined by min-dist
 
-    \For {$e \leftarrow 1 , \udots $n-epochs}
+    \For {$e \leftarrow 1 , \idots $n-epochs}
       \ForAll{($[a,b],p) \in top-rep_1 $}
         \If {Random() \leq}
 
           \State $y_a \leftarrow y_a + \alpha \dot \triangle(\log (\phi))(y_a,y_b)$
-          \For {$i\leftarrow 1$, \udots ,n-neg-samples}
+          \For {$i\leftarrow 1$, \idots ,n-neg-samples}
             \State $c \leftarrow $random sample from $Y$
             \State $y_a \lefttarrow y_a + \alpha \dot \triangle(\log (1-\phi))(y_a,y_c)$
           \EndFor

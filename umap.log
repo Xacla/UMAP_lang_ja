@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.12.25)  17 MAY 2019 11:24
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.12.25)  17 MAY 2019 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,12 +212,6 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 ! Undefined control sequence.
 l.29   X={X_1,\ctods
                     ,X_N}
-? ^^[[A
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
 ? 
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 40.
@@ -295,20 +289,6 @@ l.151   $\{ (X,d_i)_{i=1 \ldots N \}$
                                      は擬似距離空間の一部であり，式(\ref{eq:...
 
 ? 
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 161.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 161.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 161.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 161.
-
-LaTeX Warning: Reference `eq:FinSing' on page 3 undefined on input line 161.
-
-
-LaTeX Warning: Reference `eq:FinSing' on page 3 undefined on input line 163.
-
 ! Undefined control sequence.
 l.164     \bigcup_{i=1}^n \bm
                              {FinSing}((X,d_i))
@@ -327,6 +307,14 @@ l.192 ...．ここで次のデータセットを$X={x_1，\udot
 l.203 またエッジ$E$は${(x_i,x_i_
                                 j)}$で表され，重み$w$は式(\ref{weight})で定...
 ? 
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 234.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 234.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 234.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 234.
 LaTeX Font Info:    Font shape `JT1/mc/m/sc' in size <10> not available
 (Font)              Font shape `JT1/mc/m/n' tried instead on input line 237.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
@@ -445,7 +433,7 @@ l.286     \Function
                    {SpectralEmbedding}{top-rep,d}
 ? 
 ! Undefined control sequence.
-l.291     \State $Y$ $\leftarrow$ evec[$1 \udots
+l.291     \State $Y$ $\leftarrow$ evec[$1 \idots
                                                  d+1$]
 ? 
 
@@ -472,9 +460,9 @@ l.333     \Function
                    {OptimizeEmbedding}{top-rep,$Y$,min-dist,n-epochs}
 ? 
 ! Undefined control sequence.
-<argument> $e \leftarrow 1 , \udots 
+<argument> $e \leftarrow 1 , \idots 
                                     $n-epochs
-l.337 ...\For {$e \leftarrow 1 , \udots $n-epochs}
+l.337 ...\For {$e \leftarrow 1 , \idots $n-epochs}
                                                   
 ? 
 ! Missing $ inserted.
@@ -502,9 +490,9 @@ l.340
       
 ? 
 ! Undefined control sequence.
-<argument> $i\leftarrow 1$, \udots 
+<argument> $i\leftarrow 1$, \idots 
                                    ,n-neg-samples
-l.342 ... {$i\leftarrow 1$, \udots ,n-neg-samples}
+l.342 ... {$i\leftarrow 1$, \idots ,n-neg-samples}
                                                   
 ? 
 ! Undefined control sequence.
@@ -522,11 +510,7 @@ Type  H <return>  for immediate help.
 l.351   \end{algorithmic}
                          
 ? 
-[6] (./umap.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[6] (./umap.aux) ) 
 Here is how much of TeX's memory you used:
  2129 strings out of 493281
  26305 string characters out of 6145040
@@ -534,6 +518,6 @@ Here is how much of TeX's memory you used:
  6066 multiletter control sequences out of 15000+600000
  21301 words of font info for 99 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,14n,27p,271b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,14n,27p,271b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on umap.dvi (6 pages, 19968 bytes).
+Output written on umap.dvi (6 pages, 19924 bytes).
