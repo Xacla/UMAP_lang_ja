@@ -16,8 +16,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/type1cm/type1cm.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/type1cm/type1cm.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/latexsym.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/latexsym.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/algorithm.sty
